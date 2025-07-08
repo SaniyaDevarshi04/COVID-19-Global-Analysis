@@ -16,7 +16,7 @@ An interactive data-driven dashboard showcasing the global impact of COVID-19 th
   `Country`, `TotalCases`, `TotalDeaths`, `TotalRecovered`, `Population`,
    `Continent`, `Cases per 1M`, `Deaths per 1M`
 
-# **🎯 Objective**
+# **🎯 Objective** 
 
 To visually analyze global COVID-19 trends—tracking cases, recoveries, and deaths—while comparing regions, continent-wise spread, and per million case density.
 
