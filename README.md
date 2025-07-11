@@ -22,11 +22,15 @@ To visually analyze global COVID-19 trends—tracking cases, recoveries, and dea
 
 # **📊 Dashboard Highlights**
 
-✅ Key Metrics: Total Cases, Recoveries, Deaths, Population, and Cases per Million
+✅ Key Metrics: Total Cases, Deaths,Active Cases, Recoveries, Population and Cases per Million
 
 🗺️ Map: Bubble sizes show country-wise case intensity
 
-📈 Bar Chart: Compare cases, recoveries, and deaths side by side
+📈 Bar Chart: Compares countries with the highest number of active cases 
+
+🕸️ Radar Chart: Shows comparison of Recovery %, Death %, and Cases per Million
+
+📊 Clustered Column Chart: visualizes country-wise contribution to global totals
 
 🍩 Donut Chart: View case distribution across continents
 
@@ -63,9 +67,10 @@ To visually analyze global COVID-19 trends—tracking cases, recoveries, and dea
 
 - Case Fatality Rate (CFR) = `(Total Deaths / Total Cases) * 100`
 
-# **💾 Project Files**
+# **📥 Download PBIX:**
 
-dashboard file:
+Get insights hands-on—download the Power BI file:
+
 
 
 # **🚀 Future Scope**
@@ -81,4 +86,8 @@ dashboard file:
   
 # **👩‍💻 Developed By**
 
-Saniya D.
+Saniya Devarshi
+
+🎓 BCA (Data Science) | 2023–2026
+
+📍 Sri Balaji University, Pune
