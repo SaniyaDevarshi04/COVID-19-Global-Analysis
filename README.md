@@ -1,14 +1,14 @@
 # COVID-19-Global-Analysis
 Tracking the pandemic: A global COVID-19 data across countries with real-time analytics in Power BI.
 
-# **Project Overview**
+# **📝 Project Overview**
 
 An interactive data-driven dashboard showcasing the global impact of COVID-19 through compelling visuals, insightful metrics, and continent-wise breakdowns.
 
 # **Data Source** 🌐
 
-- Website:  https://www.worldometers.info/coronavirus/
-
+- Website:  Worldometers-COVID-19 Data
+  
 - Import Method: Web connector from HTML tables
 
 - Columns Extracted:
@@ -39,7 +39,7 @@ To visually analyze global COVID-19 trends—tracking cases, recoveries, and dea
 🎛️ Filters: Interactive slicers for continent and country view
 
 
-# **Insights Delivered**
+# **🗒️ Insights Delivered**
 
 - Europe leads in total cases, followed by Asia and North America.
 
@@ -63,13 +63,38 @@ To visually analyze global COVID-19 trends—tracking cases, recoveries, and dea
 | Bing Maps               | Mapping country-wise spread                            |
 | Conditional Formatting  | Enhanced readability in data tables                    |
 
-# **🧠 DAX (Callculated Measure)**
+# **🧠 DAX Summary**
 
-- Case Fatality Rate (CFR) = `(Total Deaths / Total Cases) * 100`
+- Case Fatality Rate (CFR) = `(Total Deaths ÷ Total Cases) * 100`
 
-# **📥 Download PBIX:**
+   ➤ Evaluates disease lethality level
 
-Get insights hands-on—download the Power BI file:
+- ActiveCases: `TotalCases − TotalRecovered − TotalDeaths`
+  
+   ➤ Shows currently infected cases
+
+- DeathRate: `TotalDeaths ÷ TotalCases`
+  
+   ➤ Indicates fatality proportion
+
+- NetActiveCases: `TotalCases − TotalRecovered − TotalDeaths`
+  
+  ➤ Tracks ongoing active infections
+
+- RecoveryRate: `TotalRecovered ÷ TotalCases`
+
+  ➤ Measures recovery success rate
+
+- Severity Status: `Categorizes Net Active Cases as Critical, Moderate, or Normal using DAX SWITCH logic`
+ 
+  ➤ Classifies severity based on active case thresholds.
+
+# **🖼️ Dashboard Snapshot :**
+
+
+
+<img width="1469" height="802" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/2e68641c-1ff4-4f88-994a-1cc0ef628322" />
+
 
 
 
